@@ -5,46 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="main-header">
-      <div class="main-header__container">
+      <div class="main-header__container content-width">
         <div class="main-header__nav-container">
-          <img src="images/logo.jpg" alt="wavebob logo" />
+          <a href=""
+            ><img class="logo" src="images/logo.jpg" alt="wavebob logo"
+          /></a>
           <nav class="main-header__nav">
             <ul class="main-header__nav-container__list">
               <li class="main-header__nav-container__list-item">
-                <a href="#">Home</a>
+                <a class="main-header__nav-container__link href="#">Home</a>
               </li>
               <li class="main-header__nav-container__list-item">
-                <a href="#">Services</a>
+                <a class="main-header__nav-container__link href="#">Services</a>
               </li>
               <li class="main-header__nav-container__list-item">
-                <a href="#">About Us</a>
+                <a class="main-header__nav-container__link" href="#">About Us</a>
               </li>
             </ul>
           </nav>
-          <div class="main-header__content-container">
-            <div class="main-header__content-container__text-content">
-              <div class="main-header__content-container__headline">
-                <h1>THis website is <br />awesome</h1>
-              </div>
-              <div class="main-header__content-container__subtitle">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                nesciunt quisquam porro perspiciatis mollitia corrupti velit
-                similique vero eum corporis!
-              </div>
-              <a href="#" class="main-header__content-container__link"
-                >Sign up</a
-              >
+        </div>
+        <div class="main-header__content-container">
+          <div class="main-header__content-container__text-content">
+            <h1 class="main-header__content-container__headline">
+              This website is <br />awesome</h1>
+            
+            <div class="main-header__content-container__subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              nesciunt quisquam porro perspiciatis mollitia corrupti velit
+              similique vero eum corporis!
             </div>
-            <img
-              src="images/office.jpg"
-              alt="wavebob office"
-              class="main-header__content-container__header-image"
-            />
+            <a href="#" class="main-header__content-container__cta">Sign up</a>
           </div>
+          <img
+            src="images/office.jpg"
+            alt="wavebob office"
+            class="main-header__content-container__header-image"
+          />
         </div>
       </div>
     </header>
