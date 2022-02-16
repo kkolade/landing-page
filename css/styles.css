@@ -15,6 +15,11 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* **************************
+   ***** HEADER SECTION *****
+   ************************** */
+
 .main-header {
   background-color: #1f2937;
 }
@@ -84,4 +89,32 @@ body {
   background-color: #3882f6;
   padding: 10px 30px;
   border-radius: 5px;
+}
+
+/* ****************************
+   ***** SERVICES SECTION *****
+   **************************** */
+.services__container {
+  padding: 30px;
+}
+
+.services__title {
+  text-align: center;
+  font-size: 36px;
+}
+
+.services__card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 20px;
+}
+
+.services__card {
+  flex: 1 1 0%;
+}
+
+.services__card__image {
+  border-radius: 10px;
+  width: 100%;
 }
